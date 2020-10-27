@@ -4,8 +4,7 @@ Type-annotated function add
 """
 
 
-def add(a: float, b: float) ->float:
-
+def add(a: float, b: float) -> float:
     """
     Add a + b
     """

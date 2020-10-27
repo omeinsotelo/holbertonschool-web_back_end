@@ -4,7 +4,7 @@ Basic annotations - floor
 """
 
 
-def floor(n: float) ->int:
+def floor(n: float) -> int:
     """
     Returns the floor of the float.
     """
