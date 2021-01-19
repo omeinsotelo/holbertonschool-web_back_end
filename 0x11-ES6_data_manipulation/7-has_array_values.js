@@ -1,3 +1,5 @@
-export default function hasValuesFromArray (_set, array) {
-  return array.map((x) => _set.has(x)).reduce((x, y) => (!!y), false);
+export default function hasValuesFromArray(set, array) {
+  for (const item of array) if (!set.has(item)) return false;
+
+  return true;
 }
