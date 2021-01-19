@@ -1,4 +1,3 @@
-
 export default function createIteratorObject(report) {
   const all = Object.values(report.allEmployees).reduce((a, b) => {
     a.push(...b);
